@@ -1,0 +1,7 @@
+insert 443 a
+insert 886 b
+insert 1329 c
+lookup 1329
+lookup 886
+lookup 443
+print

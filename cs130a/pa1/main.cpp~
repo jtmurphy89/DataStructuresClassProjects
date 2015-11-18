@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+#include "hash_table.cpp"
+
+using namespace std;
+
+int main ()
+{
+  hash_table table;
+  table.insert(446,"asad");
+  table.insert(450,"victor");
+  table.insert(451,"vaibhav");
+  table.lookup(451);
+  table.insert(453,"jin");
+  table.print();
+  table.lazy_delete(444);
+  table.lazy_delete(453);
+  table.print();
+  table.lazy_delete(451);
+  table.lookup(446);
+  table.lazy_delete(446);
+  table.print();
+  return 0;
+}

@@ -1,0 +1,40 @@
+#ifndef HASH_TABLE_H
+#define HASH_TABLE_H
+
+#include <iostream>
+#include <string> 
+
+using namespace std;
+
+struct Bucket {
+
+  int status;
+  int key;
+  string name;
+
+};
+
+
+
+class hash_table {
+
+ private:
+  int elts;
+  int size;
+  Bucket* head; 
+
+ public:
+  hash_table();
+  void insert(int key, string value);
+  int lookup(int key);
+  void lazy_delete(int key);
+  void print();
+  int hash(int key);
+  void resize(); 
+
+};
+
+
+
+#endif
+

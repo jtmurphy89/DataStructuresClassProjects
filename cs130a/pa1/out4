@@ -1,0 +1,19 @@
+item successfully inserted
+item successfully inserted
+item successfully inserted
+item already present
+item already present
+item already present
+item found; a 1
+item found; b 2
+item found; c 3
+(1,a)(2,b)(3,c)
+item successfully deleted
+item successfully deleted
+item successfully deleted
+item not found
+item not found
+item not found
+item not present in the table
+item not present in the table
+item not present in the table
